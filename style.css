@@ -1,0 +1,95 @@
+body {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 0.2em;
+  max-width: 90%;
+  margin: auto;
+  background-image: url(pexels-pixabay-158179.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+a {
+  font-size: 1.2em;
+  color: blue;
+}
+
+a:hover {
+  color: tomato;
+}
+
+a:visited {
+  color: green;
+}
+
+q {
+  font-size: 160%;
+  background-color: green;
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.farmer {
+  border-left: 5px solid yellow;
+}
+
+.vilagers {
+  border-left: 5px solid tomato;
+}
+
+blockquote {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+header > h2 {
+  background-color: yellow;
+  color: black;
+}
+
+.good, .bad {
+  text-transform: capitalize;
+}
+
+.bad {
+  background-color: tomato;
+}
+
+.good {
+  background-color: green;
+}
+
+table {
+  border-collapse: collapse;
+  width: 30%;
+  text-align: center;
+}
+
+td, th {
+  border: 3px solid white;
+  padding: 10px;
+}
+
+th {
+  background-color: green;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+tr:nth-last-child(odd) {
+  background-color: lightskyblue;
+  color: #333333;
+}
+
+h2 + p {
+  font-weight: bold;
+}
+
+
+

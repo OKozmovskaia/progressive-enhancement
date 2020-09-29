@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -13,7 +14,7 @@
     <h1>The Story of the Chinese Farmer</h1>
     <h2>Preamble</h2>
     <ul>
-      <li>read <a href="#story">this</a>  once</li>
+      <li>read <a href="#story" title="skip all, go to the story immediately">this</a>  once</li>
       <li>then read it again</li>
       <li>then tell it to your best friend</li>
     </ul>    
@@ -30,10 +31,10 @@
   <blockquote cite="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/">
     <h2 id="story">The story</h2>
     <p>
-      Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said,<q>We are so sorry to hear your horse has run away. This is most unfortunate.</q> The farmer said, <em>“Maybe”</em>.  The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q>Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q> The farmer again said, <em>“Maybe”</em>. 
+      Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said,<q class="vilagers">We are so sorry to hear your horse has run away. This is most unfortunate.</q> The farmer said, <q class="farmer">Maybe”</q>.  The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q class="vilagers">Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q> The farmer again said, <q class="farmer">Maybe</q>. 
     </p>
     <p>
-      The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, <q>Oh dear, that’s too <strong class="bad">bad</strong> ,</q> and the farmer responded, <em>“Maybe”</em>. The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, <q>Isn’t that great!</q> Again, he said, <em>“Maybe”</em>.
+      The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, <q class="vilagers">Oh dear, that’s too <strong class="bad">bad</strong> ,</q> and the farmer responded, <q class="farmer">Maybe</q>. The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, <q class="vilagers">Isn’t that great!</q> Again, he said, <q class="farmer">Maybe</q>.
     </p>
     <p>The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is <strong class="good">good</strong> or <strong class="bad">bad</strong> — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of good fortune.</p>
     <p><strong>Alan Watts</strong></p>
@@ -42,7 +43,7 @@
 
   <h2>Here is this dialog in the form of a table</h2>
   <table>
-    <caption>Table representing the farmer's philosophy.</caption>
+    <caption><em>Table representing the farmer's philosophy.</em></caption>
     <tr>
       <th>Event</th>
       <th><strong class="good">Good</strong> or <strong class="bad">Bad</strong> ?</th>
