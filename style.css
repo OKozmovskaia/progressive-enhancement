@@ -8,7 +8,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  padding-top: 2em;
+  padding-bottom: 4em;
 }
 
 a {
@@ -89,6 +90,25 @@ tr:nth-last-child(odd) {
 
 h2 + p {
   font-weight: bold;
+}
+
+hr, img {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  margin: 30px;
+}
+
+button {
+  color: white;
+  background-color: #333333;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+
 }
 
 
